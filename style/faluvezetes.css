@@ -1,0 +1,153 @@
+﻿body {
+ background-image: url("asd.jpg");
+ padding: 0px;
+ margin: 20px;
+ font-family: tohoma, verdana, arial;
+ font-size: 12px;
+ background-repeat:no-repeat;
+ background-color: #654321;
+ background-position: top;
+}
+
+img#index {
+	z-index: 1;
+	width: 550px;
+}
+
+header{
+	height: 100px;
+	width: 1220px;
+	margin: 0 auto;
+}
+
+nav{
+	width: 1200px;
+	margin: 0 auto;
+
+	
+	
+}
+main{
+	
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+	-webkit-box-shadow: -5px 0px 11px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 0px 11px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px 0px 11px 0px rgba(0,0,0,0.75);
+
+}
+
+ul#fomenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border-radius: 20px 20px 0px 0px;
+  
+	-webkit-box-shadow: -5px -5px 11px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px -5px 11px 0px rgba(0,0,0,0.75);
+	box-shadow: -5px -5px 11px 0px rgba(0,0,0,0.75);
+  
+}
+
+li a{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #c1c;
+}
+
+#aktiv {
+  background-color: #e4a6;
+}
+
+section {
+	background: #ffffcc;
+	margin: 0 auto;
+	padding: 10px;
+	height: 2500 px;
+	opacity: 1;
+}
+
+img.kep{
+	width:250px;
+	padding: 10px 10px;
+	float: right;
+	transition: transform 5s; /*ennyi ido alatt fordul vissza*/
+    transition-delay: 2s; /*ennyi ido mulva indul vissza*/
+    transition-timing-function: linear; /*linear: egyenletes a sebesseg*/;
+}
+
+.kep:hover {
+   transform: rotate(360deg); /*ennyi fokot fordul a tengelye korul*/
+   transition: transform 1s; /*ennyi ido alatt fordul meg*/
+   transition-timing-function: linear; 
+}
+
+span#polgi{
+    color: red;
+}
+
+div.szemely{
+	width: 700px;
+	margin: 30px auto;
+	padding: 10px;
+	border-style: groove;
+	border-width: 5px;
+}
+
+div.cimdiv{
+	margin: 0 65px;
+	width: 300px;
+	text-align: center;
+	
+}
+
+h1{
+	margin: 40px 0 90px 80px;
+	color: #aaa;
+	font-size: 35px;
+}
+h2{
+	
+}
+
+.clear{
+	clear: both;
+}
+h4{
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+
+	
+}
+div#footer{
+	margin: 0 auto;
+	padding: 20px;
+	color: #fff;
+	background: -moz-linear-gradient(top, brown, #000000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#654321), to(#000000));
+}
+
+img.szponzor{
+	width:18%;
+	margin: 1% 0.7%;
+	border-radius: 22px 22px 22px 22px;
+}
+
+
+

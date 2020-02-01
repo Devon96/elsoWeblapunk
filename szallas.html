@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+	<head>
+		<meta charset="utf-8">
+		<title>Szállásfoglalás</title>
+		<link rel="stylesheet" type="text/css" href="style/szallas.css" />
+	
+	</head>
+	<body>
+	
+	<img id="tw" src="style/szallas/tw.png" alt="Szállás" />
+	
+	<header>
+		<a href="index.html"><img id="index" src="style/logo.png" alt="Falu címer"/></a>
+	</header>
+			<nav>
+			<ul id="fomenu">
+					<li><a href="index.html">Főoldal</a></li>
+					<li><a href="faluvezetes.html">Faluvezetés</a></li>
+					<li><a id="aktiv" href="szallas.html">Szállásfoglalás</a></li>
+					<li><a href="esemenyek.html">Események</a></li>
+					<li><a href="turisztika.html">Turisztika</a></li>
+			</ul>
+			</nav>
+			<main>
+			<section>
+				<h1>SZÁLLÁSFOGLALÁS</h1>
+				<div id="leiras">
+					<p>
+					Foglaljon szállást a város legjobb szállodájába, a Hotel Big Eiffel Mahalba! Szállodánk igényesen felépített, egyedi tervek alapján készült antik épület, a világörökség része. <br>
+					1109-ben nálunk szállt meg a törökbalatonszentmáriafalvai csatába induló XIV. (Gépfegyver) Alfonz, amely eseményt híres költőnk, Fényesbillentyűzetű Oszvald is megörökített egyik költeményében. 
+					1487-ben szállodánk dísztermében tárgyalt a Nagy Polgárháborút lezáró fegyverszüneti megállapodásról IX. (Javakedvelő) Ferdinánd és Tihamér von Cépluszplusz gróf. <br>
+					Szállodánk kínálata rendkívül széles, a vendégek különböző árkategóriájú szobákból válogathatnak. Amennyiben Ön is szeretne szállást foglalni, kérem töltse ki az alábbi űrlapot, majd kattintson az Foglalás gombra.
+					</p>
+				</div>
+					<img id="hotelkep" src="style/szallas/hotel.png" alt="A hotel fényképe"/>
+
+				<div id="urlapdiv">
+					<form id="regisztracio" method="post">	
+						<fieldset>
+							<legend>Személyes adatok</legend>
+							<ul>
+								<li>
+									<label for="vezeteknev">Vezetéknév<em>*</em></label>
+									<input id="vezeteknev" placeholder="A vezetékneved" type="text"/>
+								</li>
+								<li>
+									<label for="keresztnev">Keresztnév</label>
+									<input id="keresztnev" placeholder="A keresztneved" type="text"/>
+								</li>
+								<li>
+									<label for="datum">Születési Dátum</label>
+									<input type="date" name="datum" id="datum" 
+									 max="2001-01-01" min="1900-01-01"/>
+								</li>
+								<li>
+									<label>Kedvenc italod<em>*</em></label>
+									<select>
+									<option selected disabled>Válassz italt</option><option>Whisky</option><option>Rum</option><option>Pálinka</option><option>Jägermeister</option><option>Vodka</option>
+									</select>
+								</li>
+								<li>
+									<label for="email">E-mail</label>
+									<input id="email" placeholder="Az email címed" type="email"/>
+								</li>
+								<li>
+									<label for="telefon">Telefonszám<em>*</em></label>
+									<input type="tel" name="telefonszam" id="telefon"/>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<legend>foglalási adatok</legend>
+							<ul>
+								<li>
+									<label>Szoba besorolása (csillagok)<em>*</em></label>
+									<input type="number" name="Csillagok száma" id="csillag" placeholder="5" max="6" min="1"/>
+								</li>
+								<li>
+									<label >Foglalás időtartama<em>*</em></label>
+									<input type="date" name="Mettolmeddig" id="idotartam" min="2019-05-01"/>-tól
+									<input type="date" name="Mettolmeddig"/>-ig
+								</li>
+								<li>
+									<label>Érkezés módja</label>
+									Helikopter
+									<input type="radio" name="erkezes" id="erkezes" />
+									Teleport
+									<input type="radio" name="erkezes"/>
+									
+									Bicikli
+									<input type="radio" name="erkezes" />
+								</li>
+								<li>
+									<label for="elfogado">Szerveimet eladhatják ukrán szervkereskedőknek<em>*</em></label>
+									<input type="checkbox" name="elfogado" id="elfogado"/>
+								</li>			
+							</ul>
+						</fieldset>
+						
+					<input type="reset" value="Törlés"/> 
+					<input type="submit" value="Foglalás"/>
+					
+					</form>
+
+				</div>
+				<br class="clear" />
+
+			</section>
+		
+			</main>
+			
+		<footer>
+			<h4>A VÁROS TÁMOGATÓI</h4>
+			<div>
+			<img class="szponzor" src="style/lablec/arckonyv.png" title="Arckönyv" alt="Arckönyv"/>
+			<img class="szponzor" src="style/lablec/eu.png" title="Állami Támogatás" alt="Állami Támogatás"/>
+			<img class="szponzor" src="style/lablec/hernyo.png" title="Hernyó" alt="Hernyó"/>
+			<img class="szponzor" src="style/lablec/szorny.png" title="Szörny" alt="Szörny"/>
+			<img class="szponzor" src="style/lablec/vorosbika.png" title="Vörös Bika" alt="Vörös Bika"/>
+			</div>
+		</footer>
+	</body>
+</html>
